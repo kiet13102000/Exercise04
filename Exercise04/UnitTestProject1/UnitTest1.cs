@@ -15,5 +15,13 @@ namespace UnitTestProject1
             bool result4 = Program.IsOdd(4);
             Assert.AreEqual(false, result4);
         }
+        public void TestIsPrime()
+        {
+            bool test7 = Program.IsPrime(7);
+            Assert.AreEqual(true, test7);
+
+            bool testam3 = Program.IsPrime(-3);
+            Assert.AreEqual(false, testam3);
+        }
     }
 }

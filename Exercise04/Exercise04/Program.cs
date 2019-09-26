@@ -11,7 +11,7 @@ namespace Exercise04
         static void Main(string[] args)
         {
 
-            Xuat(5);
+            Xuat(-7);
             Console.WriteLine("gia tri cua so {0} mu {1} la {2} ",3,5,pow(3 , 5));
             Console.WriteLine(" ABs of {0} la {1}", -5, ABS(-5));
             Console.WriteLine("ceil lam tron cua sua {0} la {1}", 3.5, ceil(3.5f));          
@@ -20,7 +20,7 @@ namespace Exercise04
         {
             return n % 2 == 1;
         }
-        static bool IsPrime(int n)
+        public static bool IsPrime(int n)
         {
             if( n < 2 )
             {
