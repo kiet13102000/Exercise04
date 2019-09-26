@@ -22,8 +22,12 @@ namespace Exercise04
         }
         static bool IsPrime(int n)
         {
+            if( n < 2 )
+            {
+                return false;
+            }
             int j = 0;
-            for (int i =1 ; i < Math.Sqrt(n); i++)
+            for (int i =1 ; i <= n; i++)
             {
                 if (n % i == 0)
                 {
@@ -92,6 +96,7 @@ namespace Exercise04
             }
             else
                 return n = x;
+
         }
     }
 }
