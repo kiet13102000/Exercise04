@@ -25,7 +25,8 @@ namespace Exercise04
                 if (n % i == 0)
                 {
                     j++;
-                }
+
+                } 
             }
             if (j == 2)
             {
