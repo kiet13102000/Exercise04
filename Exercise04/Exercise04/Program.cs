@@ -11,10 +11,11 @@ namespace Exercise04
         static void Main(string[] args)
         {
 
-            Xuat(-7);
+            Xuat(-5);
             Console.WriteLine("gia tri cua so {0} mu {1} la {2} ",3,5,pow(3 , 5));
             Console.WriteLine(" ABs of {0} la {1}", -5, ABS(-5));
-            Console.WriteLine("ceil lam tron cua sua {0} la {1}", 3.5, ceil(3.5f));          
+            Console.WriteLine("ceil lam tron cua sua {0} la {1}", 3.4, ceil(3.4f));
+            Console.WriteLine(Math.Ceiling(3.4));
         }
         public static bool IsOdd(int n)
         {
@@ -96,7 +97,7 @@ namespace Exercise04
             }
             else
                 return n = x;
-
         }
+
     }
 }
