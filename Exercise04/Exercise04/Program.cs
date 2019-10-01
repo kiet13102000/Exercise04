@@ -19,6 +19,10 @@ namespace Exercise04
             Console.WriteLine("so ramdom tu {0} den {1} la  {2}", 0, "(2^31)-1", rand1());
             Console.WriteLine("so random tu {0} den {1} la {2}", 0, 1, rand2());
             xet(-6);
+
+
+
+
             
             
 
