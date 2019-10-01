@@ -23,5 +23,15 @@ namespace UnitTestProject1
             bool testam3 = Program.IsPrime(-3);
             Assert.AreEqual(false, testam3);
         }
+        public void TestISSquare()
+        {
+            int test5 = Program.Square(5);
+            Assert.AreEqual(true, test5);
+
+            int test6 = Program.Square(6);
+            Assert.AreEqual(false, test6);
+
+
+        }
     }
 }
