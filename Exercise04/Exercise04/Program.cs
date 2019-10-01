@@ -19,6 +19,7 @@ namespace Exercise04
             Console.WriteLine("so ramdom tu {0} den {1} la  {2}", 0, "(2^31)-1", rand1());
             Console.WriteLine("so random tu {0} den {1} la {2}", 0, 1, rand2());
             xet(-6);
+            Console.WriteLine("ahihi {0}", sina(7, 6));
 
 
 
@@ -164,6 +165,15 @@ namespace Exercise04
             {
                Console.WriteLine("Factorinal cua {0} la {1}", a, factorial(a));
             }
+        }
+        public static double sina( int x, int N)
+        {
+            double sina = 0;
+            for (int k = 0; k < N; k++)
+            {
+                sina = pow(-1, k) * pow(x, (2 * k + 1)) / factorial(2 * k + 1);
+            }
+            return sina;
         }
 
 
